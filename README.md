@@ -9,4 +9,22 @@
 - User get success flash message if successfully logged in.
 
 
-## Screen Shots & Video WalkThrough
+## Video WalkThrough
+
+Sign In Walkthrough
+![](https://github.com/kuanhsuh/express-passportJS/blob/master/signin.gif?raw=true)
+
+Sign up, Sign In, Signout
+![](https://github.com/kuanhsuh/express-passportJS/blob/master/signup.png?raw=true)
+
+
+## Screen Shots
+
+Sign Up Page with validation error
+![](https://github.com/kuanhsuh/express-passportJS/blob/master/signup.png?raw=true)
+
+Sign In Page with Log out notice
+![](https://github.com/kuanhsuh/express-passportJS/blob/master/signin.png?raw=true)
+
+Sign Up Page with validation error
+![](https://github.com/kuanhsuh/express-passportJS/blob/master/profile.png?raw=true)
