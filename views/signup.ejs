@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Express Passport</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <% if(errors){ %>
+    <% errors.forEach(function(error){ %>
+    <div class="error"><%= error.msg %></div>
+    <% }) %>
+  <% } %>
+  <h1>Sign up</h1>
+  <form method="post" action="/users/signup">
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" class="form-control" name="username" placeholder="Username">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-default">Sign Up</button>
+  </form>
+</body>
+
+</html>

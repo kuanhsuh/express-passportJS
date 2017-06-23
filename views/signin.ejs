@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Express Passport</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+   <% if(success_msg) { %>
+  <div class="success">
+    <%= success_msg %>
+  </div>
+  <% } %>
+  <h1>Sign In</h1>
+  <form method="post" action="/users/signin">
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" class="form-control" name="username" placeholder="Username">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" class="form-control" name="password" placeholder="Password">
+    </div>
+    <button type="submit" class="btn btn-default">Sign In</button>
+  </form>
+</body>
+
+</html>
