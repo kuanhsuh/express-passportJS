@@ -11,10 +11,8 @@
 
 ## Video WalkThrough
 
-Sign In Walkthrough
-![](https://github.com/kuanhsuh/express-passportJS/blob/master/signin.gif?raw=true)
+![Sign In Walkthrough](https://github.com/kuanhsuh/express-passportJS/blob/master/signin.gif?raw=true)
 
-Sign up, Sign In, Signout
-![](https://github.com/kuanhsuh/express-passportJS/blob/master/signup.gif?raw=true)
+![Sign up, Sign In, Signout](https://github.com/kuanhsuh/express-passportJS/blob/master/signup.gif?raw=true)
 
 
